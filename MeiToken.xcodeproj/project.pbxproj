@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3641C2E31CEC5F6B00CBDBC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641C2E21CEC5F6B00CBDBC0 /* main.m */; };
+		3641C2E61CEC5F6B00CBDBC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641C2E51CEC5F6B00CBDBC0 /* AppDelegate.m */; };
+		3641C2E91CEC5F6B00CBDBC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641C2E81CEC5F6B00CBDBC0 /* ViewController.m */; };
+		3641C2EC1CEC5F6B00CBDBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3641C2EA1CEC5F6B00CBDBC0 /* Main.storyboard */; };
+		3641C2EF1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3641C2ED1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodeld */; };
+		3641C2F11CEC5F6B00CBDBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3641C2F01CEC5F6B00CBDBC0 /* Assets.xcassets */; };
+		3641C2F41CEC5F6B00CBDBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3641C2F21CEC5F6B00CBDBC0 /* LaunchScreen.storyboard */; };
+		3641C2FF1CEC5F6B00CBDBC0 /* MeiTokenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641C2FE1CEC5F6B00CBDBC0 /* MeiTokenTests.m */; };
+		3641C30A1CEC5F6B00CBDBC0 /* MeiTokenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641C3091CEC5F6B00CBDBC0 /* MeiTokenUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3641C2FB1CEC5F6B00CBDBC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3641C2D61CEC5F6B00CBDBC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3641C2DD1CEC5F6B00CBDBC0;
+			remoteInfo = MeiToken;
+		};
+		3641C3061CEC5F6B00CBDBC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3641C2D61CEC5F6B00CBDBC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3641C2DD1CEC5F6B00CBDBC0;
+			remoteInfo = MeiToken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3641C2DE1CEC5F6B00CBDBC0 /* MeiToken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiToken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3641C2E21CEC5F6B00CBDBC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3641C2E41CEC5F6B00CBDBC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3641C2E51CEC5F6B00CBDBC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3641C2E71CEC5F6B00CBDBC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3641C2E81CEC5F6B00CBDBC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3641C2EB1CEC5F6B00CBDBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3641C2EE1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeiToken.xcdatamodel; sourceTree = "<group>"; };
+		3641C2F01CEC5F6B00CBDBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3641C2F31CEC5F6B00CBDBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3641C2F51CEC5F6B00CBDBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3641C2FA1CEC5F6B00CBDBC0 /* MeiTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTokenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3641C2FE1CEC5F6B00CBDBC0 /* MeiTokenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTokenTests.m; sourceTree = "<group>"; };
+		3641C3001CEC5F6B00CBDBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3641C3051CEC5F6B00CBDBC0 /* MeiTokenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTokenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3641C3091CEC5F6B00CBDBC0 /* MeiTokenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTokenUITests.m; sourceTree = "<group>"; };
+		3641C30B1CEC5F6B00CBDBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3641C2DB1CEC5F6B00CBDBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641C2F71CEC5F6B00CBDBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641C3021CEC5F6B00CBDBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3641C2D51CEC5F6A00CBDBC0 = {
+			isa = PBXGroup;
+			children = (
+				3641C2E01CEC5F6B00CBDBC0 /* MeiToken */,
+				3641C2FD1CEC5F6B00CBDBC0 /* MeiTokenTests */,
+				3641C3081CEC5F6B00CBDBC0 /* MeiTokenUITests */,
+				3641C2DF1CEC5F6B00CBDBC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3641C2DF1CEC5F6B00CBDBC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3641C2DE1CEC5F6B00CBDBC0 /* MeiToken.app */,
+				3641C2FA1CEC5F6B00CBDBC0 /* MeiTokenTests.xctest */,
+				3641C3051CEC5F6B00CBDBC0 /* MeiTokenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3641C2E01CEC5F6B00CBDBC0 /* MeiToken */ = {
+			isa = PBXGroup;
+			children = (
+				3641C2E41CEC5F6B00CBDBC0 /* AppDelegate.h */,
+				3641C2E51CEC5F6B00CBDBC0 /* AppDelegate.m */,
+				3641C2E71CEC5F6B00CBDBC0 /* ViewController.h */,
+				3641C2E81CEC5F6B00CBDBC0 /* ViewController.m */,
+				3641C2EA1CEC5F6B00CBDBC0 /* Main.storyboard */,
+				3641C2F01CEC5F6B00CBDBC0 /* Assets.xcassets */,
+				3641C2F21CEC5F6B00CBDBC0 /* LaunchScreen.storyboard */,
+				3641C2F51CEC5F6B00CBDBC0 /* Info.plist */,
+				3641C2ED1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodeld */,
+				3641C2E11CEC5F6B00CBDBC0 /* Supporting Files */,
+			);
+			path = MeiToken;
+			sourceTree = "<group>";
+		};
+		3641C2E11CEC5F6B00CBDBC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3641C2E21CEC5F6B00CBDBC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3641C2FD1CEC5F6B00CBDBC0 /* MeiTokenTests */ = {
+			isa = PBXGroup;
+			children = (
+				3641C2FE1CEC5F6B00CBDBC0 /* MeiTokenTests.m */,
+				3641C3001CEC5F6B00CBDBC0 /* Info.plist */,
+			);
+			path = MeiTokenTests;
+			sourceTree = "<group>";
+		};
+		3641C3081CEC5F6B00CBDBC0 /* MeiTokenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3641C3091CEC5F6B00CBDBC0 /* MeiTokenUITests.m */,
+				3641C30B1CEC5F6B00CBDBC0 /* Info.plist */,
+			);
+			path = MeiTokenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3641C2DD1CEC5F6B00CBDBC0 /* MeiToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3641C30E1CEC5F6B00CBDBC0 /* Build configuration list for PBXNativeTarget "MeiToken" */;
+			buildPhases = (
+				3641C2DA1CEC5F6B00CBDBC0 /* Sources */,
+				3641C2DB1CEC5F6B00CBDBC0 /* Frameworks */,
+				3641C2DC1CEC5F6B00CBDBC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeiToken;
+			productName = MeiToken;
+			productReference = 3641C2DE1CEC5F6B00CBDBC0 /* MeiToken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3641C2F91CEC5F6B00CBDBC0 /* MeiTokenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3641C3111CEC5F6B00CBDBC0 /* Build configuration list for PBXNativeTarget "MeiTokenTests" */;
+			buildPhases = (
+				3641C2F61CEC5F6B00CBDBC0 /* Sources */,
+				3641C2F71CEC5F6B00CBDBC0 /* Frameworks */,
+				3641C2F81CEC5F6B00CBDBC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3641C2FC1CEC5F6B00CBDBC0 /* PBXTargetDependency */,
+			);
+			name = MeiTokenTests;
+			productName = MeiTokenTests;
+			productReference = 3641C2FA1CEC5F6B00CBDBC0 /* MeiTokenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3641C3041CEC5F6B00CBDBC0 /* MeiTokenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3641C3141CEC5F6B00CBDBC0 /* Build configuration list for PBXNativeTarget "MeiTokenUITests" */;
+			buildPhases = (
+				3641C3011CEC5F6B00CBDBC0 /* Sources */,
+				3641C3021CEC5F6B00CBDBC0 /* Frameworks */,
+				3641C3031CEC5F6B00CBDBC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3641C3071CEC5F6B00CBDBC0 /* PBXTargetDependency */,
+			);
+			name = MeiTokenUITests;
+			productName = MeiTokenUITests;
+			productReference = 3641C3051CEC5F6B00CBDBC0 /* MeiTokenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3641C2D61CEC5F6B00CBDBC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Feng;
+				TargetAttributes = {
+					3641C2DD1CEC5F6B00CBDBC0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3641C2F91CEC5F6B00CBDBC0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3641C2DD1CEC5F6B00CBDBC0;
+					};
+					3641C3041CEC5F6B00CBDBC0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3641C2DD1CEC5F6B00CBDBC0;
+					};
+				};
+			};
+			buildConfigurationList = 3641C2D91CEC5F6B00CBDBC0 /* Build configuration list for PBXProject "MeiToken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3641C2D51CEC5F6A00CBDBC0;
+			productRefGroup = 3641C2DF1CEC5F6B00CBDBC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3641C2DD1CEC5F6B00CBDBC0 /* MeiToken */,
+				3641C2F91CEC5F6B00CBDBC0 /* MeiTokenTests */,
+				3641C3041CEC5F6B00CBDBC0 /* MeiTokenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3641C2DC1CEC5F6B00CBDBC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641C2F41CEC5F6B00CBDBC0 /* LaunchScreen.storyboard in Resources */,
+				3641C2F11CEC5F6B00CBDBC0 /* Assets.xcassets in Resources */,
+				3641C2EC1CEC5F6B00CBDBC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641C2F81CEC5F6B00CBDBC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641C3031CEC5F6B00CBDBC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3641C2DA1CEC5F6B00CBDBC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641C2E91CEC5F6B00CBDBC0 /* ViewController.m in Sources */,
+				3641C2EF1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodeld in Sources */,
+				3641C2E61CEC5F6B00CBDBC0 /* AppDelegate.m in Sources */,
+				3641C2E31CEC5F6B00CBDBC0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641C2F61CEC5F6B00CBDBC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641C2FF1CEC5F6B00CBDBC0 /* MeiTokenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641C3011CEC5F6B00CBDBC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641C30A1CEC5F6B00CBDBC0 /* MeiTokenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3641C2FC1CEC5F6B00CBDBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3641C2DD1CEC5F6B00CBDBC0 /* MeiToken */;
+			targetProxy = 3641C2FB1CEC5F6B00CBDBC0 /* PBXContainerItemProxy */;
+		};
+		3641C3071CEC5F6B00CBDBC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3641C2DD1CEC5F6B00CBDBC0 /* MeiToken */;
+			targetProxy = 3641C3061CEC5F6B00CBDBC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3641C2EA1CEC5F6B00CBDBC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3641C2EB1CEC5F6B00CBDBC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3641C2F21CEC5F6B00CBDBC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3641C2F31CEC5F6B00CBDBC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3641C30C1CEC5F6B00CBDBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3641C30D1CEC5F6B00CBDBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3641C30F1CEC5F6B00CBDBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeiToken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinYiJia.MeiToken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3641C3101CEC5F6B00CBDBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MeiToken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinYiJia.MeiToken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3641C3121CEC5F6B00CBDBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeiTokenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinYiJia.MeiTokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiToken.app/MeiToken";
+			};
+			name = Debug;
+		};
+		3641C3131CEC5F6B00CBDBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MeiTokenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinYiJia.MeiTokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeiToken.app/MeiToken";
+			};
+			name = Release;
+		};
+		3641C3151CEC5F6B00CBDBC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeiTokenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinYiJia.MeiTokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiToken;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3641C3161CEC5F6B00CBDBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MeiTokenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XinYiJia.MeiTokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MeiToken;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3641C2D91CEC5F6B00CBDBC0 /* Build configuration list for PBXProject "MeiToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641C30C1CEC5F6B00CBDBC0 /* Debug */,
+				3641C30D1CEC5F6B00CBDBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3641C30E1CEC5F6B00CBDBC0 /* Build configuration list for PBXNativeTarget "MeiToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641C30F1CEC5F6B00CBDBC0 /* Debug */,
+				3641C3101CEC5F6B00CBDBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3641C3111CEC5F6B00CBDBC0 /* Build configuration list for PBXNativeTarget "MeiTokenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641C3121CEC5F6B00CBDBC0 /* Debug */,
+				3641C3131CEC5F6B00CBDBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3641C3141CEC5F6B00CBDBC0 /* Build configuration list for PBXNativeTarget "MeiTokenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641C3151CEC5F6B00CBDBC0 /* Debug */,
+				3641C3161CEC5F6B00CBDBC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3641C2ED1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3641C2EE1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodel */,
+			);
+			currentVersion = 3641C2EE1CEC5F6B00CBDBC0 /* MeiToken.xcdatamodel */;
+			path = MeiToken.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3641C2D61CEC5F6B00CBDBC0 /* Project object */;
+}
